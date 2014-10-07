@@ -152,20 +152,20 @@ footer {
   float: right;
   margin-top: 2em;
   margin-left: 2em;
-  padding: 2em;
   height: 80px;
   width: 100%;
   background-color: #fff;
   color: rgb(64, 153, 255);
   border-left: 5px solid rgb(64, 153, 255);
-  border-top: 2px solid #eee;
-  border-bottom: 2px solid #eee;
-  border-right: 2px solid #eee;
 }
 
 .register h2 {
   display: table-cell;
+  padding: 0.5em;
   vertical-align: middle;
+  border-top: 2px solid #eee;
+  border-bottom: 2px solid #eee;
+  border-right: 2px solid #eee;
 }
 
 .banner {
