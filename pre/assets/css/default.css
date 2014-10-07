@@ -63,15 +63,14 @@ footer {
   color: #000;
 }
 
-.navbar-default .navbar-nav a {
-
+.navbar-default .navbar-nav > .active {
+  border-left: solid 1px #c9c9c9;
+  border-right: solid 1px #c9c9c9;
 }
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:focus {
   border-top: solid 3px #008cf2;
-  border-left: solid 1px #eee;
-  border-right: solid 1px #eee;
   background-color: #fff;
 }
 
@@ -84,16 +83,8 @@ footer {
   border-top: solid 3px rgb(238, 238, 238);
 }
 
-.nav-pills>li.active >a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
   background: transparent;
-}
-
-.nav-pills > li {
-  background-color: #fff;
-  border-top: 1px solid #eee;
-  border-right: 1px solid #eee;
-  border-bottom: 1px solid #eee;
-  border-radius: 0;
 }
 
 .nav-pills > li > a {
@@ -101,32 +92,43 @@ footer {
   position: relative;
   display: block;
   padding: 10px 15px;
+  background-color: #fff;
+  border-top: 1px solid #eee;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  border-radius: 0;
 }
 
 .nav-pills > li:nth-child(1) > a {
-  border-left: 4px solid rgb(64, 153, 255);
   color: rgb(64, 153, 255) !important;
 }
+.nav-pills > li:nth-child(1) {
+  border-left: 4px solid rgb(64, 153, 255);
+}
 .nav-pills > li:nth-child(2) > a {
-  border-left: 4px solid rgb(254, 100, 4);
   color: rgb(254, 100, 4) !important;
 } 
-
+.nav-pills > li:nth-child(2) {
+  border-left: 4px solid rgb(254, 100, 4);
+}
 .nav-pills > li:nth-child(3) > a {
-  border-left: 4px solid rgb(0, 92, 180);
   color: rgb(0, 92, 180) !important;
 }
-
+.nav-pills > li:nth-child(3) {
+  border-left: 4px solid rgb(0, 92, 180);
+}
 .nav-pills > li:nth-child(4) > a {
-  border-left: 4px solid red;
   color: red !important;
 }
-
+.nav-pills > li:nth-child(4) {
+  border-left: 4px solid red;
+}
 .nav-pills > li:nth-child(5) > a {
-  border-left: 4px solid  #7dbb02;
   color:  #7dbb02 !important;
 }
-
+.nav-pills > li:nth-child(5) {
+  border-left: 4px solid  #7dbb02;
+}
 .content {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -164,7 +166,8 @@ footer {
 
 .banner {
   display: block;
-  position: relative;
+  position: right;
+  float: left;
   height: auto;
   width: 100%;
   background-color: transparent;
@@ -201,6 +204,7 @@ footer {
   float: right;
   position: relative;
   margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 .arrow-icon-right {
@@ -209,6 +213,7 @@ footer {
   position: relative;
   margin-top: -1px;
   margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 

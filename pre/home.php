@@ -45,7 +45,7 @@
       </div>
     </div>
     <div class="col-lg-3 col-md-3">
-      <div class="register"><h2>Register Now</h2></div>
+      <div class="register"><h2>Booking Ticket</h2></div>
       <div class="banner">
         <img class="img-responsive" src="assets/img/banner/0.jpg" />
         <img class="img-responsive" src="assets/img/banner/1.jpg" />
