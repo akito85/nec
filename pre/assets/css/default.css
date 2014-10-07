@@ -68,6 +68,10 @@ footer {
   border-right: solid 1px #c9c9c9;
 }
 
+.navbar-default .navbar-nav > li {
+  border-left: solid 1px #eee;
+  border-right: solid 1px #eee; 
+}
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:focus {
   border-top: solid 3px #008cf2;
