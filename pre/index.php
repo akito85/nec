@@ -15,6 +15,8 @@
           break;
         case "home": include "home.php";
           break;
+        case "events": include "events.php";
+          break;
       }    
     /*
       $id = $_REQUEST['id'];

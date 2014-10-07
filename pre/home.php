@@ -8,29 +8,27 @@
           <p>
           Acara peringatan ulang tahun Sunan Gunung Jati akan diselenggarakan pada Selasa, 7 Oktober 2014 pukul 19,30, bertempat di Mesjid Agung Sang Cipta Rasa Keraton Kasepuhan Cirebon.
           </p>
-          <a href="#">Read more</a>
-          <!--
           <p>
           Acara pembukaan "Festival Seni dan Budaya Pesisiran" akan diselenggarakan pada Rabu, 8 Oktober 2014, pukul 08.30, bertempat di Bangsal Pagelaran Keraton Kasepuhan Cirebon.
           </p>
           <p>
           Acara penutupan "Festival Seni dan Budaya Pesisiran" akan diselenggarakan pada Jumat, 10 Okatober 2014, pukul 19.30, bertempat di Alun-alun Keraton Kasepuhan Cirebon.
           </p>
-          -->
+          <a href="#">Read more</a>
           <div class="row sub-content">
             <div class="col-lg-6 col-md-6 col-sm-6">
               <div class="event-left">
                 <h3>Event</h3>
-                  <h2>Sawengi</h2>
-                    <h2>ning Cirebon</h2>
+                  <h2>Ulang Tahun Sunan Gunung Jati</h2>
+                    <h2>Selasa 7 Okt 2014</h2>
                       <img class="arrow-icon-left" src="assets/img/arrow-right.jpg" />
               </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6">
               <div class="event-right">
                 <h3>Event</h3>
-                  <h2>Kuliner</h2>
-                    <h2>ala Cirebon</h2>
+                  <h2>Festival Seni dan Budaya Pesisiran</h2>
+                    <h2>Rabu 8 Okt 2014</h2>
                       <img class="arrow-icon-right" src="assets/img/arrow-right2.jpg" />              
               </div>
             </div>
