@@ -45,10 +45,130 @@
       </div>
     </div>
     <div class="col-lg-3 col-md-3">
-      <div class="register"><h2>Booking Ticket</h2></div>
+      <a class="register" data-toggle="modal" data-target="#myModal" href="#myModal"><h2>Booking Ticket</h2></a>
       <div class="banner">
         <img class="img-responsive" src="assets/img/banner/0.jpg" />
         <img class="img-responsive" src="assets/img/banner/1.jpg" />
       </div>
     </div>
   </div>
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Book Ticket</h4>
+      </div>
+      <div class="modal-body">
+        <form id="book-ticket">
+          <div class="form-group input-group">
+            <span class="input-group-addon glyphicon glyphicon-user"></span>
+            <input type="text" class="form-control" id="name" placeholder="Enter full name">
+          </div>
+          <div class="form-group input-group">
+            <span class="input-group-addon glyphicon glyphicon-phone"></span>         
+            <input type="text" class="form-control" id="phone" placeholder="Enter phone number">
+          </div>
+          <div class="form-group input-group">
+            <span class="input-group-addon glyphicon glyphicon-envelope"></span> 
+            <input type="email" class="form-control" id="email" placeholder="Enter email">
+          </div>
+          <div class="form-group input-group">
+            <span class="input-group-addon glyphicon glyphicon-th-large"></span> 
+            <input type="text" class="form-control" id="ids" placeholder="Enter ID KTP/SIM/PASSPORT">
+          </div>
+          <div class="form-group">
+            <select class="form-control">
+              <option>Indonesia</option>
+              <option>Singapore</option>
+              <option>Malaysia</option>
+              <option>Vietnam</option>
+              <option>Thailand</option>
+            </select>
+          </div>
+
+          <label>Domestic Visitors</label>
+          <div class="form-horizontal">
+            <label for="adults" class="col-sm-2 control-label">Adults</label>
+            <div class="col-sm-5">
+              <input type="email" class="form-control" id="adults" placeholder="0">
+            </div>
+            <div class="col-sm-5">
+              <div class="form-group input-group">
+                <span class="input-group-addon">Rp</span>
+                <input type="text" class="form-control" id="subtotal" placeholder="0">
+              </div>
+            </div>
+          </div>
+          <div class="form-horizontal">
+              <label for="adults" class="col-sm-2 control-label">Students</label>
+              <div class="col-sm-5">
+                <input type="email" class="form-control" id="adults" placeholder="0">
+              </div>
+              <div class="col-sm-5">
+                <div class="form-group input-group">
+                  <span class="input-group-addon">Rp</span>
+                  <input type="text" class="form-control" id="subtotal" placeholder="0">
+                </div>
+              </div>
+          </div>
+          <div class="form-horizontal">
+              <label for="adults" class="col-sm-2 control-label">Children</label>
+              <div class="col-sm-5">
+                <input type="email" class="form-control" id="adults" placeholder="0">
+              </div>
+              <div class="col-sm-5">
+                <div class="form-group input-group">
+                  <span class="input-group-addon">Rp</span>
+                  <input type="text" class="form-control" id="subtotal" placeholder="0">
+                </div>
+              </div>
+          </div>
+
+          <label>Foreign Visitors</label>
+          <div class="form-horizontal">
+            <label for="adults" class="col-sm-2 control-label">Adults</label>
+            <div class="col-sm-5">
+              <input type="email" class="form-control" id="adults" placeholder="0">
+            </div>
+            <div class="col-sm-5">
+              <div class="form-group input-group">
+                <span class="input-group-addon">Rp</span>
+                <input type="text" class="form-control" id="subtotal" placeholder="0">
+              </div>
+            </div>
+          </div>
+          <div class="form-horizontal">
+              <label for="adults" class="col-sm-2 control-label">Students</label>
+              <div class="col-sm-5">
+                <input type="email" class="form-control" id="adults" placeholder="0">
+              </div>
+              <div class="col-sm-5">
+                <div class="form-group input-group">
+                  <span class="input-group-addon">Rp</span>
+                  <input type="text" class="form-control" id="subtotal" placeholder="0">
+                </div>
+              </div>
+          </div>
+          <div class="form-horizontal">
+              <label for="adults" class="col-sm-2 control-label">Children</label>
+              <div class="col-sm-5">
+                <input type="email" class="form-control" id="adults" placeholder="0">
+              </div>
+              <div class="col-sm-5">
+                <div class="form-group input-group">
+                  <span class="input-group-addon">Rp</span>
+                  <input type="text" class="form-control" id="subtotal" placeholder="0">
+                </div>
+              </div>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>

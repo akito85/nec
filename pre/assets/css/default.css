@@ -159,6 +159,9 @@ footer {
   border-left: 5px solid rgb(64, 153, 255);
 }
 
+.register:hover,
+.register:focus { text-decoration: none; outline: none; color: rgb(64, 153, 255);}
+
 .register h2 {
   display: table-cell;
   padding: 0.5em;
@@ -262,4 +265,16 @@ footer {
 
 .recent-four {
   background-color: #ac6897;
+}
+
+.glyphicon {
+  top: 0;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+.modal-footer {
+  border-top: 0;
 }
